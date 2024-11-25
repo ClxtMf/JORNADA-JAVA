@@ -13,9 +13,8 @@ public class LendoDiferentesTiposDeDados {
         // ----------------------------------------------
 
         System.out.println("Digite um texto >>>>> ");
-
         String texto = scanner.nextLine();
-        System.out.println(STR."O texto ecrito foi \{texto}");
+        System.out.println(String.format("O texto escrito foi %s", texto));
         
         // ----------------------------------------------
 
@@ -54,10 +53,5 @@ public class LendoDiferentesTiposDeDados {
         scanner.close();
         System.out.println("Fim!");
         System.out.println("============================");
-
-
-
-
-
     }
 }

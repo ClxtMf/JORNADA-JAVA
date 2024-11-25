@@ -22,5 +22,3 @@ public class Variaveis {
 //     double euSouVariavel = 25.0;
 //     System.out.println("Fim");
 // }
-
-    
